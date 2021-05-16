@@ -1,0 +1,29 @@
+@charset "uft-8";
+
+#global ul li {
+    list-style: none;
+}
+#footer ul li {
+    list-style-type: none;
+}
+#wrapper ul li {
+    list-style: none;
+}
+body{
+    text-align:center;
+    font-family: Quicksand, 游ゴシック体, YuGothic, 'ヒラギノ角ゴシック Pro',メイリオ, Meiryo,'ＭＳ Ｐゴシック', sans-serif;
+    list-style: none;
+}
+.honbun {
+    margin-top: 30px;
+    margin-bottom: 12px;
+}
+.label{
+    vertical-align: top;
+    margin-right: 5px;
+}
+.toukou{
+    border-top: 1px solid;
+    margin: 40px auto;
+    max-width: 975px;
+}

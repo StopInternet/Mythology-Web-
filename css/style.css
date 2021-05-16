@@ -1,0 +1,145 @@
+@charset "uft-8";
+/*全体画像の設定*/
+html {
+    background-image: url(../images/bg.jpg);
+}
+/*ヘッダーの設定*/
+header{
+    width: 980px;
+    margin: 0 auto;
+}
+
+header h1 {
+    float: left;
+    margin: 5px 0 10px;
+}
+
+header #header_datapack {
+    display:  block;
+    padding: 10px;
+    color: olivedrab;
+    text-decoration: none;
+    float: right;
+    margin: 30px 0 0;
+}
+
+#header_datapack a:hover{
+    background-color: rgb(163, 16, 114);
+}
+
+img {
+    vertical-align: bottom;
+}
+
+/*Main部分*/
+#main {
+    padding: 30px 30px 30px 20px;
+    border-bottom: solid 1px purple;
+}
+#main h1{
+    background-color: yellowgreen;
+}
+
+#main ol li {
+    background-color: turquoise;
+}
+
+/*globalの設定*/
+#global{
+    width: 980px;
+    clear: both;
+    overflow: hidden;
+    margin: 16px auto;
+}
+
+#header_contact {
+    background-image: url(../images/button.png);
+    color: white;
+    font-size: 30px;
+}
+
+#global ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#global ul li {
+    width: 195px;
+    float: left;
+    margin-right: 1px;
+    text-align: center;
+}
+
+#global ul li a {
+    display:  block;
+    padding: 16px;
+    background-color: black;
+    color: olivedrab;
+    text-decoration: none;
+}
+
+#global ul li a:hover{
+    background-color: rgb(163, 16, 114);
+}
+
+/*wrapperの設定*/
+#wrapper {
+    width: 980px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+    margin-top:0;
+}
+p{
+    margin-top: 0;
+    line-height: 1.6;
+
+}
+/*Sidebanner*/
+
+#side_banner {
+    margin-bottom: 30px;
+}
+
+#side_banner h2 {
+    background-color: black;
+    color: white;
+    padding: 7px;
+    font-size: 14px;
+    text-align: center;
+}
+
+#side_banner ul {
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+
+#side_banner ul li {
+    margin-bottom: 10px;
+}
+#side_contact{
+    margin-bottom: 30px;
+}
+
+#side_contact{
+    border: 1px solid #b7a077;
+    color: white;
+    text-align: cneter;
+}
+
+article{
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+#footer {
+    background-color: blanchedalmond;
+}
+
+#news{
+    float:right;
+}
