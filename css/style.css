@@ -41,7 +41,7 @@ img {
 }
 
 #main ol li {
-    background-color: turquoise;
+    background-color: white;
 }
 
 /*globalの設定*/
@@ -147,3 +147,31 @@ article{
 #datapack p{
     font-size: 25px;
 }
+
+#rule1 p{
+    text-align: left;
+}
+
+#mainlist {
+    font-size:smaller;
+    text-align: left;
+  }
+  
+  #mainlist ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #mainlist ol li{
+    display: inline;
+  }
+  
+  #mainlist ol li::after{
+    content: ">";
+    padding-left: 7px;
+  }
+  
+  #mainlist ol li:last-child::after{
+    content: none;
+  }
