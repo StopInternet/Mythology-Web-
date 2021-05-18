@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!--
+    次の目標：datpackhtmlの作成
+    その他のHTMLの作成
+-->
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>Mytology HomePage</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="icon.ico">    
+      </head>
+<body>
+    <script src="./js/base.js">
+    </script>
+  <header>
+      <h1>
+          <a href="index.html"><img src="images/mythology.png" alt="Mythology"></a>
+      </h1>
+      <nav id="global">
+          <ul>
+              <li class="current"><a href="index.html"><img src="images/icon.png">メインページ</a></li>
+              <li><a href="more.html"><img src="images/icon.png">詳細</a></li>
+              <li><a href="datapack.html"><img src="images/icon.png">データパック集</a></li>
+              <li><a href="update.html"><img src="images/icon.png">更新内容</a></li>
+              <li><a href="contact.html"><img src="images/icon.png">不具合報告</a></li>
+          </ul>
+      </nav>
+  </header>
+  
+  <div id="wrapper">
+      <div id="main">
+        <div id="mainlist">
+            <ol>
+              <li><a href="index.html">メインページ</a></li>
+              <li><a href="datapack.html">データパック集</a></li>
+              <li>TNT彫刻選手権データパック集</li>
+            </ol>
+          </div>
+        <article>
+            <h1>
+                ★TNT彫刻選手権データパック★
+            </h1>
+            <p class="lead">
+              TNT彫刻選手権データパックとは、<br>
+              決められたサイズと、決められたTNTの個数の中で、<br>
+              TNTを置いて、爆発させて、彫刻を作るというデータパックです。
+            </p>
+            <section>
+                <section id="rule">
+                <h2>
+                    ■使い方■
+                </h2>
+                <p>
+                    ①Tキーでチャット欄を開いて/reloadを打つと チャット欄にこのように表示されます。<img src="images/tnt01.png"><br>
+
+                    ②TABキーを押すとTNTを設置した数がカウントされるようになります。<br>
+                    TNTを何個置いたか確認する場合をTABキーをおしてください。<img src="images/tnt02.png"><br>
+
+                    ③/function tnt:startをチャット欄で打つと、 <br>
+                    画像のように表示されるので [ここをクリックしてスタート！]をクリックしてください
+                    <img src="images/tnt03.png"><br>
+
+                    ④クリックしたらまず石ブロックの大きさを指定します。<br>
+                     [縦ｘ横ｘ高さ]になってます [8x8x8] [16x16x16] [16x16x32]のどれかをクリックしてください。<br>
+                     そうすると、範囲にそった石ブロックが生成されます。<img src="images/tnt04.png"><br>
+                    以下画像は16x16サイズのものです。<img src="images/tnt05.png"><br>
+                    ⑤サイズを選択後、つぎはTNTを何個使うか指定することができます。<br>
+                     TNT[個数]となっています。<br> 
+                     [8個] [16個] [32個] [48個] [64個] [128個] 注意事項として、<br>
+                     再設置行為（TNTを置く場所を間違えてしまった場合等）した場合その分のカウントもされるので 注意してください。<img src="images/tnt06.png"><br>
+                    ⑥設置が終わると自動的にスペクテイターになります。<br>
+                    クリエイティブモードに戻りたい場合、TNT設置終了後に表示される[終了する]をくりっくしてください<img src="images/tnt07.png"><br>
+                </p>
+                </section>
+            </section>
+        </article>
+        <aside id="sidebar">
+            <section id="side_banner">
+                <h2>
+                    関連リンク
+                </h2>
+                <ul>
+                    <li><a href="https://github.com/StopInternet/TNT-Sculpture-DataPack" target="_blank">
+                        <img src="images/githubicon.jpg" alt="TNT彫刻選手権データパックのGithub"></a></li>
+                </ul>
+            </section>
+            <section id="side_contact">
+            </section>
+        </aside>
+      </div>
+      </div>
+</body>
+
+</html>

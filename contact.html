@@ -17,15 +17,11 @@
       <h1>
           <a href="index.html"><img src="images/mythology.png" alt="Mythology"></a>
       </h1>
-      <div id="header_datapack">
-          <ul><a href="datapack.html"><img src="images/icon.png" alt="作成データパック集">
-          </a></ul>
-      </div>
       <nav id="global">
           <ul>
               <li class="current"><a href="index.html"><img src="images/icon.png">メインページ</a></li>
               <li><a href="more.html"><img src="images/icon.png">詳細</a></li>
-              <li><a href="clear.html"><img src="images/icon.png">クリア者</a></li>
+              <li><a href="datapack.html"><img src="images/icon.png">データパック集</a></li>
               <li><a href="update.html"><img src="images/icon.png">更新内容</a></li>
               <li><a href="contact.html"><img src="images/icon.png">不具合報告</a></li>
           </ul>
@@ -34,20 +30,48 @@
   
   <div id="wrapper">
       <div id="main">
+        <div id="mainlist">
+          <ol>
+            <li><a href="index.html">メインページ</a></li>
+            <li>不具合報告</li>
+          </ol>
+        </div>
         <article>
-            <h1>
-                Mythology概要
-            </h1>
-            <p class="lead">
-              マインクラフトを8年間プレイしてきた作者が集大成として作り上げたmodpackであり、「神話」をモチーフとしたModpackとなっております。
-                  様々なmodpackの要素を組み合わせた究極のmodpackです。</p>
-          <section>
-              <h2>リンク</h2>
-              <p>製作者：<a href="https://twitter.com/Stop__Internet_">Stop__Internet_</a><p>
-              <p>CurseForge：<a href="https://www.curseforge.com/minecraft/modpacks/mythology/files/3310246">Mythology</p>
-              <p>Discrod:<a href="https://discord.gg/rJRjBW3yBv">Discord</a>
-          </section>
-        </article>
+          <h1>■不具合報告ページ■</h1>
+          <p>
+            Modpack上で不具合やバグが起こってしまったときに<br>
+            報告をしてください。
+          </p>
+        <form id="entry">
+            <dl>
+              <!--Mustは絶対に選択しないと進まない-->
+              <dt>
+                お名前(仮名可）　<span class="must"> ＊
+                </span>
+              </dt>
+              <dd><input type="text" name="name" id="name" required> </dd>
+              <dt>
+                メールアドレス（無くても可）
+              </dt>
+              <dd><input type="email" name="email" id="email" required></dd>
+
+       
+              <!--送信テキストを表示-->
+              <dt>不具合内容</dt>
+              <dd>
+                <textarea name="detail" id="detail">
+                </textarea>
+              </dd>
+            </dl>
+       
+            <!--送信するボタン-->
+            <p id="submit_button_cover">
+                <address>
+                <input type="submit" id="submit_button" valu="送信する"> <a href="mailto:lifekonkon@gmail.com"></a>
+              </address>
+            </p>
+          </form>
+          </article>
         <aside id="sidebar">
             <section id="side_banner">
                 <h2>
