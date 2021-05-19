@@ -10,4 +10,7 @@ https://github.com/StopInternet/TNT-Sculpture-DataPack/wiki/TNT%E5%BD%AB%E5%88%B
 CEVideo
 https://drive.google.com/file/d/1nmWe7zJGEXyphnIY2jcyucUROoS30yQa/view?usp=sharing
 
+utu kusa videoファイル
+https://drive.google.com/file/d/1FxIRZY6VtmQlfibsi2KXsaq9t-90uFAW/view?usp=sharing
+
 DLはzipフォルダから
