@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--
+    次の目標：datpackhtmlの作成
+    その他のHTMLの作成
+-->
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>Mytology HomePage</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style1.css">
+        <link rel="shortcut icon" href="icon.ico">    
+      </head>
+<body>
+    <script src="./js/game.js">
+    </script>
+  <header>
+      <h1>
+          <a href="index.html"><img src="images/mythology.png" alt="Mythology"></a>
+      </h1>
+      <div id="header_datapack">
+          <ul><a href="datapack.html"><img src="images/icon.png" alt="作成データパック集">
+          </a></ul>
+      </div>
+      <nav id="global">
+          <ul>
+              <li class="current"><a href="index.html"><img src="images/icon.png">メインページ</a></li>
+              <li><a href="more.html"><img src="images/icon.png">詳細</a></li>
+              <li><a href="clear.html"><img src="images/icon.png">クリア者</a></li>
+              <li><a href="update.html"><img src="images/icon.png">更新内容</a></li>
+              <li><a href="contact.html"><img src="images/icon.png">不具合報告</a></li>
+          </ul>
+      </nav>
+  </header>
+  
+  <div id="wrapper">
+      <div id="main">
+        <div id="title">
+            <div id="title_text">
+              <div id="title_name">Minesweeper</div>
+              <div id="title_author">Made by T.D</div>
+            </div>
+            <div id="custom_setting">
+              <div id="custom_left">
+                <div class="custom_text" id="custom_row_text"></div>
+                <input required type="number" class="custom_input" id="custom_row">
+                <div class="custom_text" id="custom_column_text"></div>
+                <input required type="number" class="custom_input" id="custom_column">
+                <div class="custom_text" id="custom_mine_text"></div>
+                <input required type="number" class="custom_input" id="custom_mine">
+              </div>
+              <div id="custom_right">
+                <button type="button" id="custom_random">Random</button>
+                <br>
+                <button type="button" id="custom_start">Start</button>
+                <br>
+                <span id="custom_mine_probability_text"></span>
+              </div>
+            </div>
+            <div id="difficulty_parent">
+              <button type="button" class="difficulty" id="easy">Easy</button>
+              <button type="button" class="difficulty" id="normal">Normal</button>
+              <button type="button" class="difficulty" id="hard">Hard</button>
+              <button type="button" class="difficulty" id="lunatic">Lunatic</button>
+              <button type="button" class="difficulty" id="custom">Custom</button>
+            </div>
+          </div>
+          <div id="game">
+            <div id="status_area">
+              <span class="status_text" id="timer_text"></span>
+              <span class="status_text" id="flag_text"></span>
+              <span class="status_text" id="mine_probability_text"></span>
+              <button type="button" id="restart_game">ReStart</button>
+              <button type="button" id="quit_game">Quit</button>
+            </div>
+            <div id="game_table_frame">
+              <table id="game_table"></table>
+              <div id="win_frame">
+                <div id="win_text">
+                  Congratulations!!
+                  <br>
+                  <button type="button" id="tweet">Tweet</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        <aside id="sidebar">
+            <section id="side_banner">
+                <h2>
+                    関連リンク
+                </h2>
+                <ul>
+                    <li><a href="https://www.curseforge.com/minecraft/modpacks/mythology/files/3310246" target="_blank">
+                        <img src="images/banner01.jpg" alt="Mythology Modpack"></a></li>
+                </ul>
+            </section>
+            <section id="side_contact">
+            </section>
+        </aside>
+      </div>
+      </div>
+</body>
+
+</html>
