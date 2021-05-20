@@ -14,3 +14,9 @@ utu kusa videoファイル
 https://drive.google.com/file/d/1FxIRZY6VtmQlfibsi2KXsaq9t-90uFAW/view?usp=sharing
 
 DLはzipフォルダから
+
+https://drive.google.com/file/d/1qgdwsvpkAL8Z_jnN90K8wzjUhTjJIcWm/view?usp=drivesdk
+
+
+
+
